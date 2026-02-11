@@ -1,9 +1,9 @@
-
+readme = """# Nashville Infrastructure Risk & Anomaly Dashboard
 
 An interactive geospatial dashboard analyzing 41,500+ infrastructure service requests
 across Nashville's council districts in 2024.
 
-![Dashboard Preview](preview.png)
+
 
 ## Overview
 
@@ -17,7 +17,7 @@ and detect unusual complaint patterns before they become critical failures.
 - Electric & Water requests average **11.3 days** to resolve — the slowest category
 - **District 21 and 17** are the highest-risk areas by combined resolution time and volume
 - A major complaint spike in **Week 3 (January 2024)** affected 5+ districts simultaneously,
-  consistent with Nashville's cold snap and pipe burst incidents
+  consistent with Nashville cold snap and pipe burst incidents
 - Streets & Roads account for **81%** of all infrastructure complaints
 
 ## Features
@@ -65,8 +65,8 @@ district-week combinations.
 ```
 nashville-infrastructure-risk/
 │
-├── nashville_risk_dashboard.ipynb   # Main analysis notebook
-├── nashville_infrastructure_risk_anomaly.html  # Interactive map output
+├── Nashville_Utility_Infrastructure_Risk_Dashboard.ipynb
+├── nashville_infrastructure_risk_anomaly.html
 ├── README.md
 └── preview.png
 ```
@@ -83,10 +83,10 @@ nashville-infrastructure-risk/
 **Kubra Gul Ibacik**
 GIS Analyst | Data Scientist
 Nashville, TN
-[LinkedIn](https://linkedin.com/in/your-profile) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/kubrarose/) | [GitHub](https://github.com/kubragul)
 """
 
-with open("README.md", "w") as f:
+with open("/content/drive/MyDrive/nashville-infrastructure-risk/README.md", "w") as f:
     f.write(readme)
 
-print("README.md created!")
+print("README updated!")
