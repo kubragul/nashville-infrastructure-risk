@@ -84,9 +84,4 @@ nashville-infrastructure-risk/
 GIS Analyst | Data Scientist
 Nashville, TN
 [LinkedIn](https://www.linkedin.com/in/kubrarose/) | [GitHub](https://github.com/kubragul)
-"""
 
-with open("/content/drive/MyDrive/nashville-infrastructure-risk/README.md", "w") as f:
-    f.write(readme)
-
-print("README updated!")
