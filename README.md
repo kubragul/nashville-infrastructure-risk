@@ -3,7 +3,7 @@
 An interactive geospatial dashboard analyzing 41,500+ infrastructure service requests
 across Nashville's council districts in 2024.
 
-
+![Dashboard Preview](preview.png)
 
 ## Overview
 
