@@ -1,4 +1,4 @@
-readme = """# Nashville Infrastructure Risk & Anomaly Dashboard
+ Nashville Infrastructure Risk & Anomaly Dashboard
 
 An interactive geospatial dashboard analyzing 41,500+ infrastructure service requests
 across Nashville's council districts in 2024.
